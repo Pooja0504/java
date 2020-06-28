@@ -1,7 +1,7 @@
 import java.util.*;
 public class Factorial1 {
     public static void main(String[] args) {
-        int result = 1;
+        double result = 1;
         System.out.println("Enter number : ");
         Scanner sc = new Scanner(System.in);
         int input = 0;

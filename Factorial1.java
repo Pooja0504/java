@@ -4,7 +4,12 @@ public class Factorial1 {
         int result = 1;
         System.out.println("Enter number : ");
         Scanner sc = new Scanner(System.in);
+        try
+        {
         int input = sc.nextInt();
+        }catch(Exception e){
+         System.out.println("Enter only Integer numbers");
+        }
         if (input >= 0) {
         
        while (input!=0)

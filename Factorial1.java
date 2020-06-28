@@ -4,11 +4,11 @@ public class Factorial1 {
         int result = 1;
         System.out.println("Enter number : ");
         Scanner sc = new Scanner(System.in);
-        try
-        {
-        int input = sc.nextInt();
-        }catch(Exception e){
-         System.out.println("Enter only Integer numbers");
+        int input = 0;
+        try {
+           input = sc.nextInt();
+        } catch (Exception e) {
+            System.out.println("Only Integer Can Classify As Even Or Odd");
         }
         if (input >= 0) {
         
